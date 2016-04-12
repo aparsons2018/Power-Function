@@ -12,11 +12,11 @@ def power(base, exponent):
 	
 	return answer
 
---------------MAIN PROGRAM--------------
+#--------------MAIN PROGRAM--------------
 
 base = int(input("What will the base be?"))
 exponent = int(input("What will the exponent be?"))
 
 answer = power(base, exponent) 
 
-print("{} to the power of {} is {}".format(base,exponent,answer)
+print("{} to the power of {} is {}".format(base,exponent,answer))
